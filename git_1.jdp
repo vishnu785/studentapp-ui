@@ -11,7 +11,7 @@ pipeline {
                 sh 'ls'
             }
         }
-        stae('Test_2') { 
+        stage('Test_2') { 
             steps {
                 sh 'ls -a'
             }
